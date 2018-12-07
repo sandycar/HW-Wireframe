@@ -52,6 +52,13 @@ body {
 	color:grey;
 }
 
+.container {
+	background-color: yellow;
+	height: 300px;
+	margin: 10px;
+	padding-bottom: 35px;
+}
+
 .footerbox {
 	clear: both;
 	background-color: #ebebeb;
