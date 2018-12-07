@@ -3,40 +3,64 @@ body {
 	background-color: #777;
 	font-family: Arial;
 	font-size: 18px;
-	font-color: #777;
-
+	text-align: center;
+	color:grey;
 }
 
-.box {
-	float: left;
-	width: 960px;
-	margin-top: 5px;
-	margin-left: 100px;
+.headerbox {
+	background-color: #ebebeb;
+	text-align: center;
+	padding: 50px;
+	margin-right:200px;
+	margin-left:200px;
+	margin-top: 1px
+	color:grey;
+
 }
 
 .section {
 	background-color: #ebebeb;
 	text-align:center;
 	padding: 40px;
-	font-size: 18px;
+	height:200px;
+	margin-left:200px;
+	margin-right:600px;
+
 }
 
 .sbox {
 	float: left;
 	background-color: #ebebeb;
 	text-align:center;
-	width:50%;
-	height: 300px;
-	padding:5px;
+	width:420px;
+	height: 200px;
+	padding:50px;
+	margin-left:200px;
+	margin-top:2px;
+	color:grey;
 }
 
-.container {
-	float: left;
-    width: 33.33%;
-    padding: 5px;
+.abox {
+	float:right;
+	background-color: #ebebeb;
+	text-align:center;
+	width:325px;
+	height: 200px;
+	padding:50px;
+	margin-right: 200px;
+	margin-top:2px;
+	color:grey;
 }
 
-.clearfix::after {
-    clear: both;
-    display: table;
+.footerbox {
+	clear: both;
+	background-color: #ebebeb;
+	text-align: center;
+	padding: 40px;
+	margin-right:200px;
+	margin-left:200px;
+	color:grey;
+
+}
+
 
