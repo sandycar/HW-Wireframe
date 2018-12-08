@@ -40,6 +40,22 @@ body {
 	color:grey;
 }
 
+.boxinside {
+	background: #777;
+	text-align:center;
+	color: white;
+	padding-top: 25px;
+    padding-bottom: 16px;
+
+
+}
+.divbox{
+	color: gray;
+	height: 32px;
+	margin: 0 15px; 
+	background-color: white;
+}
+
 .abox {
 	float:right;
 	background-color: #ebebeb;
@@ -53,10 +69,12 @@ body {
 }
 
 .container {
-	background-color: yellow;
+	background-color: #777;
 	height: 300px;
-	margin: 10px;
+	margin-left:240px
+	margin-right:640px; 
 	padding-bottom: 35px;
+	color: grey;
 }
 
 .footerbox {
